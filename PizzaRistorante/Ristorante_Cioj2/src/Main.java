@@ -225,6 +225,7 @@ public static void main(String[] args) {
 
             // Stampa dell'ordine
             ordine.stampaOrdine();
+	    ordine.salvaOrdineSuFile("ordini.txt");
 
             // Chiedi all'utente se vuole lasciare una recensione
 
