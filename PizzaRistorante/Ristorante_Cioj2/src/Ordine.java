@@ -28,4 +28,20 @@ public class Ordine {
         }
         System.out.println("Totale: €" + calcolaTotale());
     }
+
+     public void salvaOrdineSuFile(String filename) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("src/" + filename, true))) {
+            writer.write("Ordine di " + cliente.getNome() + ":");
+            writer.newLine();
+            for (Piatto piatto : piattiOrdinati) {
+                writer.write(piatto.toString());
+                writer.newLine();
+            }
+            writer.write("Totale: €" + calcolaTotale());
+            writer.newLine();
+            writer.newLine();
+        } catch (IOException e) {
+            System.err.println("Errore durante il salvataggio dell'ordine: " + e.getMessage());
+        }
+    }
 }
