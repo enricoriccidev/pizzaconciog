@@ -1,0 +1,9 @@
+Ordine di Lorenzo:
+Acqua Naturale: €1.0
+Pizza Diavola: €8.5
+Totale: €9.5
+
+Ordine di Lollo:
+Tiramisu: €7.0
+Totale: €7.0
+

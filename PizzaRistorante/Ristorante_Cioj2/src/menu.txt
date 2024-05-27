@@ -1,0 +1,6 @@
+Spaghetti alla Carbonata,12.0
+Lasagna,15.0
+Insalata Mista,6.0
+Tiramisu,7.0
+Acqua Naturale,1.0
+Pizza Diavola,8.5
